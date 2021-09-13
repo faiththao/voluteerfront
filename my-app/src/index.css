@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Kaisei Tokumin', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
-.App {
+/* .navbar {
   background-color: aliceblue;
+  border: solid;
+  padding: 10px;
+  height: 100px;
+  max-width: 100%;
+  text-align: center;
 }
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 145px;
+  padding-right: 145px;
+  margin-top: 25px;
+} */
