@@ -1,4 +1,4 @@
-# voluteerfront
+# volunteerfront
 
 (Create - post) 
 Form: Create a volunteer work opportunity with title, category, date/time, location, description, maybe an image
