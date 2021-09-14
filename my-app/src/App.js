@@ -5,7 +5,17 @@ import Home from './components/Home';
 import Opportunities from './components/Opportunities';
 import Navbar from './components/Navbar/Navbar'
 
+// const API = 
+
 function App() {
+  // const [opportunity, setOpportunity] = useState([]);
+
+  // useEffect(() => {
+  //   fetch(API)
+  //   .then(res => res.json())
+  //   .then(data => setOpportunity(data))
+  // }, [])
+
   return (
     <BrowserRouter>
       <Navbar />

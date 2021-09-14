@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 
-h1 {
+.home h1 {
   font-family: 'Kaisei Tokumin', serif;
   text-align: center;
+  border: solid;
+  border-color: rgb(105, 158, 118);
+  background-color: rgb(105, 158, 118);
+  color: white;
 }
 
-h3 {
+.body h3 {
   color: rgb(172, 228, 186);
 }
 
@@ -22,4 +26,37 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
+}
+
+.form {
+  border: dotted;
+  border-color: rgb(172, 228, 186);
+  width: 450px;
+  height: initial;
+  text-align: left;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  background-color: rgb(241, 241, 233);
+}
+
+.opportunities h1 {
+  border: solid;
+  border-color: rgb(105, 158, 118);
+  background-color: rgb(105, 158, 118);
+  color: white;
+  text-align: center;
+}
+
+.opportunities h3 {
+  color: rgb(172, 228, 186);
+  margin-left: 150px;
+}
+
+.container h3 {
+  margin-left: 450px;
+}
+
+.submit_button {
+  background-color: rgb(172, 228, 186);
+  font-family: 'Kaisei Tokumin', serif;
 }
