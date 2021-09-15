@@ -8,7 +8,7 @@ import Navbar from './components/Navbar/Navbar'
 // const API = 
 
 function App() {
-  // const [opportunity, setOpportunity] = useState([]);
+  // const [opportunities, setOpportunities] = useState([]);
 
   // useEffect(() => {
   //   fetch(API)
@@ -21,7 +21,9 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/volunteer">
-          <Opportunities />
+          <Opportunities 
+          // oppotunities={oppotunities}
+          />
         </Route>
         <Route exact path="/" >
           <Home />
