@@ -49,14 +49,34 @@
 
 .opportunities h3 {
   color: rgb(172, 228, 186);
-  margin-left: 150px;
+  text-align: left;
 }
 
 .container h3 {
-  margin-left: 450px;
+  text-align: center;
 }
 
 .submit_button {
   background-color: rgb(172, 228, 186);
   font-family: 'Kaisei Tokumin', serif;
+}
+
+.oppcard {
+  display: inline-flexbox;
+  background-repeat: no-repeat;
+  background-position: center 90%;
+  float: left;
+  margin: 2%;
+  padding: 1%;
+  outline: rgb(172, 228, 186) dotted thick;
+  transition: 0.75s;
+  opacity: 1;
+  text-align: center;
+
+  width: 300px;
+  height: auto;
+}
+
+.oppcard img {
+  width: 40%;
 }
