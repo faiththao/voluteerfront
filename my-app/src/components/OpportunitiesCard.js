@@ -17,28 +17,16 @@ export default function OpportunitiesCard({opportunity, addVolunteer, onDelete }
         org_name,
         category} = opportunity
 
-    // console.log(opportunity)
-
     const listVolunteers = opportunity.volunteers
     .map((o_volunteer) => (
         <VolunteerList
             key={o_volunteer.id}
             o_volunteer={o_volunteer}
-            // opportunity={opportunity}
         />)
     )
 
-
-    function showForms() {
-        setForm((showForm) => !showForm)
-    }
-
     function handleDelete() {
         onDelete(id)
-    }
-
-    function volunteerList() {
-        setVolunteer((showVolunteer) => !showVolunteer)
     }
     
     return (
@@ -54,6 +42,7 @@ export default function OpportunitiesCard({opportunity, addVolunteer, onDelete }
             
             <VolunteerForm addVolunteer={addVolunteer} opportunity_id={opportunity.id} />
             
+            <p className="vlist">Volunteers</p>
             {listVolunteers}
         </div>
     )}

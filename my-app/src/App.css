@@ -9,6 +9,11 @@
   color: white;
 }
 
+.body {
+  display: inline-flexbox;
+  outline: rgb(172, 228, 186) solid;
+}
+
 .body h3 {
   color: rgb(172, 228, 186);
 }
@@ -21,6 +26,10 @@
   font-family: 'Kaisei Tokumin', serif;
 }
 
+.menu h1 {
+  color: rgb(0, 48, 2);
+}
+
 .body img {
   display: block;
   margin-left: auto;
@@ -29,14 +38,13 @@
 }
 
 .form {
-  border: dotted;
-  border-color: rgb(172, 228, 186);
-  width: 450px;
+  outline: rgb(172, 228, 186) dotted thick;
+  display: inline-flexbox;
+  width: initial;
   height: initial;
-  text-align: left;
+  text-align: center;
   padding-bottom: 50px;
-  padding-left: 100px;
-  background-color: rgb(241, 241, 233);
+  background-color: rgb(231, 226, 218);
 }
 
 .opportunities h1 {
@@ -49,7 +57,11 @@
 
 .opportunities h3 {
   color: rgb(172, 228, 186);
-  text-align: left;
+  text-align: center;
+}
+
+.opportunities input {
+  margin-bottom: 10px;
 }
 
 .container h3 {
@@ -73,10 +85,35 @@
   opacity: 1;
   text-align: center;
 
+  /* overflow-x: scroll; */
+  overflow-x: hidden;
+  color: rgb(187, 158, 134);
+  
+
   width: 300px;
-  height: auto;
+  height: 600px;
+  /* height: auto; */
 }
 
 .oppcard img {
   width: 40%;
+}
+
+.delete {
+  background-color: rgb(233, 128, 128);
+  color: white;
+  float: right;
+}
+
+.vlist {
+  text-decoration: underline;
+}
+
+.vform {
+  display: inline-flexbox;
+  outline: rgb(187, 158, 134) solid thick;
+}
+
+.vform input {
+  margin-bottom: 10px;
 }

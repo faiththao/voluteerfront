@@ -34,7 +34,7 @@ export default function VolunteerForm({ addVolunteer, opportunity_id }) {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             />
-            <button>Submit</button>
+            <button className="submit_button">Submit</button>
         </form>
     )
 }

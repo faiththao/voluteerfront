@@ -5,13 +5,13 @@ export default function Navbar() {
     return (
         <Nav className="navbar">
             <NavMenu className="menu">
-                Volunteer Work Manager ღ
+                <h1>Helping Hands ღ</h1>
                 <NavLinks to="/" className="link">
                     Home
                 </NavLinks>
 
                 <NavLinks to="/volunteer" className="link">
-                    Voluteer
+                    Volunteer
                 </NavLinks>
             </NavMenu>
         </Nav>
