@@ -17,13 +17,15 @@ export default function OpportunitiesCard({opportunity, addVolunteer, onDelete }
         org_name,
         category} = opportunity
 
-    const listVolunteers = opportunity.volunteers
+    const listVolunteers = 
+    (opportunity.volunteers ?
+    opportunity.volunteers
     .map((o_volunteer) => (
         <VolunteerList
             key={o_volunteer.id}
             o_volunteer={o_volunteer}
         />)
-    )
+    ) : null)
 
     function handleDelete() {
         onDelete(id)
