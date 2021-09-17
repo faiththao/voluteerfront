@@ -5,7 +5,7 @@ export default function VolunteerForm({ addVolunteer, opportunity_id }) {
     const [phone, setPhone] = useState('');
 
     function onSubmit(e) {
-        e.preventDefault();
+        //e.preventDefault();
 
         const newVolunteer = {
             name, 
