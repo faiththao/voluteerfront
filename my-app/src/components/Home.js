@@ -7,7 +7,7 @@ export default function Home() {
             <h3>About Us</h3>
             <p>Welcome to Helping Hands, where we help you find volunteer opportunities!
                 Here we are motivated to help our community and find you the perfect place to 
-                voluteer your skills! Join us by voluteering and doing local outreach with the 
+                volunteer your skills! Join us by volunteering and doing local outreach with the 
                 opportunities listed on our volunteer page.
             </p>
         </body>

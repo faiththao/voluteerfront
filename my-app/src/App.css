@@ -20,6 +20,8 @@
   margin: 10px;
   text-align: center;
   padding-bottom: 10px;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 
 .body {
@@ -105,6 +107,7 @@
   transition: 0.75s;
   opacity: 1;
   text-align: center;
+  background-color: rgb(247, 245, 243);
 
   /* overflow-x: scroll; */
   overflow-x: hidden;
@@ -127,9 +130,9 @@
 }
 
 .vlist {
-  text-decoration: underline;
   font-size: 20px;
 }
+
 
 .vform {
   display: inline-flexbox;
@@ -148,4 +151,13 @@
 .opptitle {
   font-size: 20px;
 }
+
+hr {
+  border: dotted thick rgb(172, 228, 186);
+    border-style: none none dotted; 
+    color: rgb(231, 226, 218) 
+}
+
+
+
 

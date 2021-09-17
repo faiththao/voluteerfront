@@ -42,9 +42,10 @@ export default function OpportunitiesCard({opportunity, addVolunteer, onDelete }
             <p>Time: <strong>{time}</strong></p>
             <p>Location: <strong>{location}</strong></p>
             <p>Notes: <strong>{description}</strong></p>
-            
+            <br></br>
             <VolunteerForm addVolunteer={addVolunteer} opportunity_id={opportunity.id} />
-            
+            <br></br>
+            <hr></hr>
             <p className="vlist"><strong>Volunteers</strong></p>
             {listVolunteers}
         </div>

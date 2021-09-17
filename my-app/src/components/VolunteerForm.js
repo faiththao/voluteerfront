@@ -19,7 +19,7 @@ export default function VolunteerForm({ addVolunteer, opportunity_id }) {
     return (
         <form className="vform" onSubmit={onSubmit}>
             <h4>Volunteer Form</h4>
-            Name: <input 
+            Name: <input
             type="text" 
             name="name"
             placeholder="enter full name..."
