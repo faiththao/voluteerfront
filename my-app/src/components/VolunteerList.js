@@ -11,8 +11,8 @@ export default function VolunteerList({ o_volunteer }) {
         <div 
         key={id}
         >
-            <p><strong>Name:</strong>{name}</p>
-            <p><strong>Phone:</strong>{phone}</p>
+            <p><strong>Name: </strong>{name}</p>
+            <p><strong>Phone: </strong>{phone}</p>
             {/* <p>{opportunity_id}</p> */}
         </div>
     )

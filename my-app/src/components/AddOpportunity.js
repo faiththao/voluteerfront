@@ -37,7 +37,7 @@ export default function AddOpportunity({ addOpportunity }) {
 
     return (
         <div className="opportunities">
-            <h3>Add Volunteer Opportunities</h3>
+            <h3>Add a New Volunteer Opportunity Using the Form Below!</h3>
             <form className="form"
                 onSubmit={onSubmit}
             >
