@@ -34,17 +34,18 @@ export default function OpportunitiesCard({opportunity, addVolunteer, onDelete }
     return (
         <div key={id} className="oppcard">
             <button onClick={handleDelete} className="delete">X</button>
-            <p><strong>{title}</strong></p>
-            <p><strong>{org_name}</strong></p>
+            <p className="opptitle">"<strong>{title}</strong>"</p>
+            <p>Organization: <strong>{org_name}</strong></p>
             <img src={img} alt="description" />
-            <p><strong>{category}</strong></p>
-            <p>{description}</p>
-            <p>Date: {date}, Time: {time}</p>
-            <p>{location}</p>
+            <p className="category">Type of Work: <strong>{category}</strong></p>
+            <p>Date: <strong>{date}</strong></p>
+            <p>Time: <strong>{time}</strong></p>
+            <p>Location: <strong>{location}</strong></p>
+            <p>Notes: <strong>{description}</strong></p>
             
             <VolunteerForm addVolunteer={addVolunteer} opportunity_id={opportunity.id} />
             
-            <p className="vlist">Volunteers</p>
+            <p className="vlist"><strong>Volunteers</strong></p>
             {listVolunteers}
         </div>
     )}

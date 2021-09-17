@@ -21,7 +21,7 @@ export default function Opportunities({ opportunities,
             <AddOpportunity
             addOpportunity={addOpportunity} />
             <container className="container">
-                <h3>Volunteer Opportunities</h3>
+                <h3>Sign Up for a Volunteer Opportunity!</h3>
                 <ul>
                     {opportunityCard}
                 </ul>
